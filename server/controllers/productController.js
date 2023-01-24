@@ -5,7 +5,7 @@ const router = require('express').Router();
 
 
 router.get('/', async (req,res) => {
-res.send('hello')
+res.send('hello jeka')
     // const products = await productService.getAllProducts().lean();
 
     // res.json(products);
