@@ -1,0 +1,81 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* body{
+    position: relative;
+} */
+article {
+    font-family: 'Ubuntu', sans-serif;
+    /* display: inline-block; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px black;
+    border-radius: 22px;
+    width: 35%;
+    height: 45%;
+    background-color: #C8A47E;
+    margin: 0;
+
+}
+
+button {
+    background-color: #7C5D3A;
+    border-radius: 10px;
+    padding: 5px 17px;
+    border: solid 1px #7C5D3A;
+    text-align: center;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-type: none;
+    /* padding-left: 0; */
+    width: 70%;
+    height: 15%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+
+i {
+    /* padding-left: 10px; */
+    position: relative;
+    left: 26px;
+    top: 1px;
+}
+
+input {
+    /* padding-right: 0; */
+    width: 70%;
+    font-size: 15px;
+    line-height: 30px;
+    border: solid 1px #573C1B;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding-left: 28px;
+    padding-bottom: 10px;
+    background-color: #A1805B;
+    padding-top: 4px;
+
+}
