@@ -1,14 +1,25 @@
-// const router = require('express').Router();
+const router = require('express').Router();
 // const { isAuth } = require('../middlewares/authMiddlewares');
 // const productService = require('../services/productService');
 
-// router.get('/', async (req,res) => {
 
-//     const products = await productService.getAllProducts().lean();
 
-//     res.json(products);
+router.get('/', async (req,res) => {
+res.send('hello')
+    // const products = await productService.getAllProducts().lean();
 
-// });
+    // res.json(products);
+
+});
+
+
+
+
+
+
+
+
+
 
 // router.post('/',isAuth,async (req,res) => {
 
@@ -85,4 +96,4 @@
 // });
 
 
-// module.exports = router;
+module.exports = router;

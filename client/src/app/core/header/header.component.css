@@ -1,0 +1,47 @@
+nav {
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+    /* margin-left: 60%; */
+    background-color: #444;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+    font-size: 23px;
+    line-height: 20px;
+    height: 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* <nav> tag as container
+<ul> tag for unordered list
+Background Color: #444;
+Center the text
+Padding: 0px;
+Margin: 0px;
+list-style:none;
+<li> tag for list item
+Text size: 24px;
+Line Height: 40px;
+Height: 40px;
+Padding: 20px;
+<a> tag for hyperlink
+text-decoration: none;
+Text-Color: #ffffff; */
